@@ -2,6 +2,8 @@
 
 let array = ["banana", "maça", "abacate", "limão", "maracuja"]
 
+console.log(array)
+
 // 02- Utilize um método para adicionar um nome ao inicio do array.
 
 array.unshift("paçoca")
@@ -22,6 +24,7 @@ array.shift()
 
 let numbers = [7,5,6,3,8,9,2,1,4]
 numbers.sort()
+console.log("Numero organizados:" + numbers)
 
 // 07 Crie um objeto que receba ao menos três propriedades sobre você.
 
